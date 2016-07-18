@@ -8,11 +8,32 @@ html {
     /*font-family: 'Merriweather', serif;*/
 
     font-family: 'Rasa', serif;
-
-
 }
 
+h1 {
+	letter-spacing: .05em;
+	background: red;
+}
+h2 {
+	font-family: 'Amiko', sans-serif;
+}
+
+ul {
+	padding: 0;
+	background-color: red;
+}
+
+li {
+	display: inline;
+}
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+.grey {
+	background-color: grey;
+}
+
+.white {
+	background-color: white;
+}
