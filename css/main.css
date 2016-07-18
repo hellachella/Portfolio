@@ -6,15 +6,19 @@ html {
     font-family: 'Amiko', sans-serif;
 
     /*font-family: 'Merriweather', serif;*/
-    background: black;
+    background: #e2e2e2;
+
 
 
 }
 
-h1 {
-	font-size: 5em;
+.font-rasa{
 	font-family: 'Rasa', serif;
-	color: #fff;
+}
+
+.bannertext {
+	font-size: 5rem;
+	padding-top: 3em;
 }
 
 ul {
@@ -29,7 +33,6 @@ li {
   box-sizing: inherit;
 }
 
-
 .grey {
 	background-color: grey;
 }
@@ -38,16 +41,21 @@ li {
 	background-color: white;
 }
 
+.pink {
+	background-color: lightpink;
+}
+.text-white {
+	color: #fff;
+}
+
 .orange {
-	fill: #f9f9f9;
+	fill: white;
 	stroke: transparent;
 }
 
 
 .spincircle {
-	animation: spinny 18s ease-in alternate infinite;
-		animation-delay: 3s;
-		opacity: 0;
+	animation: spinny 20s ease-in alternate infinite;
 }
 
 @keyframes spinny {
@@ -57,17 +65,18 @@ li {
 
  }
  50% {
- 	opacity: .2;
+ 	opacity: .9;
  }
+
 100% {
  	transform: rotate(360deg) scale(3);
 	opacity: 0;
 }
-
 }
 
 .spincircle-delay {
-	animation: spinnytoo 10s ease-out alternate infinite;
+	animation: spinnytoo 20s ease-out alternate infinite;
+	opacity: 0;
 
 }
 
@@ -80,7 +89,7 @@ li {
  }
 
  50% {
- 	opacity: .3;
+ 	opacity: .6;
  }
  100% {
  	transform: rotate(360deg) scale(5);
