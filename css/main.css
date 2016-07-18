@@ -27,9 +27,7 @@ li {
   box-sizing: inherit;
 }
 
-svg {
-	width: 50%;
-}
+
 .grey {
 	background-color: grey;
 }
@@ -37,3 +35,24 @@ svg {
 .white {
 	background-color: white;
 }
+
+.orange {
+	fill: lightgrey;
+	stroke: transparent;
+}
+
+.spincircle {
+	animation: spinny 11s infinite alternate ease-in;
+}
+
+@keyframes spinny {
+ from {
+ 	transform: rotate(0deg) scale(.9);
+
+ }
+ to {
+ 	transform: rotate(360deg) scale(1);
+
+ }
+}
+
