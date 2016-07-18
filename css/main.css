@@ -3,24 +3,21 @@
 html {
   box-sizing: border-box;
 
-    /*font-family: 'Amiko', sans-serif;*/
+    font-family: 'Amiko', sans-serif;
 
     /*font-family: 'Merriweather', serif;*/
 
-    font-family: 'Rasa', serif;
+
 }
 
 h1 {
-	letter-spacing: .05em;
-	background: red;
-}
-h2 {
-	font-family: 'Amiko', sans-serif;
+	font-size: 5em;
+	font-family: 'Rasa', serif;
 }
 
 ul {
 	padding: 0;
-	background-color: red;
+	background-color: lightgrey;
 }
 
 li {
@@ -30,6 +27,9 @@ li {
   box-sizing: inherit;
 }
 
+svg {
+	width: 50%;
+}
 .grey {
 	background-color: grey;
 }
