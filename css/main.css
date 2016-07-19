@@ -112,8 +112,12 @@ li {
  	fill: #9be7d8;
  }
 
+ 30% {
+ 	opacity: 1;
+ }
+
  50% {
- 	opacity: .4;
+ 	opacity: .9;
  	top: 600px;
  	left: 500px;
  	fill: pink;
@@ -128,7 +132,7 @@ li {
  	transform: rotate(-720deg) scale(3);
 	opacity: 0;
 	transform: translateY(30deg);
-	fill: #9be7d8;
+	fill: #fff;
 }
 }
 
