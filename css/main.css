@@ -126,6 +126,7 @@ li {
  	transform: rotate(-720deg) scale(3);
 	opacity: 0;
 	transform: translateY(30deg);
+	fill: #9be7d8;
 }
 }
 
