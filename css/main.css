@@ -148,7 +148,7 @@ li {
 	 	fill: lightpink;
 	 }
 	 100% {
-	 	transform: rotate(360deg) scale(5);
+	 	transform: rotate(720deg) scale(5);
 		opacity: 0;
 	}
 }
