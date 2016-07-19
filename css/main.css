@@ -109,6 +109,7 @@ li {
  	bottom: -300px;
  	right: 18px;
  	transform-origin: top;
+ 	fill: #9be7d8;
  }
 
  50% {
@@ -151,6 +152,7 @@ li {
 	 100% {
 	 	transform: rotate(360deg) scale(5);
 		opacity: 0;
+		fill: #9be7d8;
 	}
 }
 
