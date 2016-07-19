@@ -10,7 +10,9 @@ html {
     background: #9be7d8;
 
 }
-
+.strike {
+	text-decoration: line-through;
+}
 a {
 	text-decoration: none;
 	color: grey;
@@ -28,6 +30,8 @@ a:visited {
 .navigation {
 	margin: 0;
 	padding: 1em;
+	background-color: #ef80b3;
+
 }
 
 .navigation ul {
@@ -38,13 +42,21 @@ a:visited {
 	border-bottom: 1px dotted transparent;
 }
 
+.navigation a{
+	color: white;
+}
+
+.navigation a:hover {
+	color: white;
+}
+
 .font-rasa{
 	font-family: 'Rasa', serif;
 }
 
 .bannertext {
-	font-size: 5rem;
-	padding-top: 1em;
+	font-size: 5em;
+	padding: 10%;
 }
 
 .banner {
@@ -53,6 +65,12 @@ a:visited {
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: contain;
+	background-color: #dff1ed;
+	display: block;
+}
+
+.chelle {
+	overflow: hidden;
 }
 
 .dentures {
@@ -67,7 +85,8 @@ a:visited {
 }
 
 .rollteeth {
-	animation: teeth 4000ms forwards ease;
+	animation: teeth 3000ms forwards ease;
+
 }
 
 @keyframes teeth {
@@ -92,7 +111,9 @@ a:visited {
 
 .subtext {
 	opacity: 0;
-	transition: 5000ms ease;
+	transition: all 5000ms ease;
+	transition-delay: 1s;
+
 }
 .fadein {
 	opacity: 1;
@@ -130,6 +151,19 @@ li {
 	stroke: transparent;
 }
 
+.testimonials {
+	background-color: #ffc627;
+}
+
+.testimonial {
+	font-style: italic;
+	transition: all 500ms ease;
+}
+
+.testimonial:hover{
+	font-weight: bold;
+}
+
 .subtext {
 	transition: opacity 500ms;
 
@@ -139,7 +173,8 @@ li {
 }
 
 .circles {
-overflow: hidden;
+
+position: absolute;
 }
 .spincircle {
 	animation: spinny 25s ease-in infinite alternate;
@@ -159,16 +194,15 @@ overflow: hidden;
  	bottom: -300px;
  	right: 18px;
  	transform-origin: top;
- 	fill: #9be7d8;
  	opacity: .3;
  }
 
  30% {
- 	opacity: 1;
+ 	opacity: .2;
  }
 
  50% {
- 	opacity: .9;
+ 	opacity: .6;
  	top: 600px;
  	left: 500px;
  	fill: pink;
@@ -202,7 +236,7 @@ overflow: hidden;
 	 }
 
 	 50% {
-	 	opacity: .6;
+	 	opacity: .2;
 	 	fill: lightpink;
 	 }
 
@@ -212,7 +246,7 @@ overflow: hidden;
 	 100% {
 	 	transform: rotate(360deg) scale(5);
 		opacity: 0;
-		fill: #9be7d8;
+		fill: white;
 	}
 }
 
@@ -252,20 +286,42 @@ svg {
 	stroke: transparent 0px;
 }
 
-
+.footer {
+	margin-bottom: 0;
+	display: block;
+}
 
 	@media only screen and (max-width: 25em) {
+
+		.banner{
+			font-size: .5rem;
+		}
+
 
 }
 
 	@media only screen and (max-width: 38em) {
  .banner {
- 	background-image: none;
+background-image: none;
+
+background-repeat: repeat;
+background-blend-mode: all;
+
+opacity: 1;
+}
+
+	.bannertext {
+
+
+	line-height: .5em;
+	padding: 2em 0;
+
  }
 
-		}
 
 }
+
+
 
 
 
