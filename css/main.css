@@ -113,7 +113,7 @@ li {
  }
 
  50% {
- 	opacity: .9;
+ 	opacity: .4;
  	top: 600px;
  	left: 500px;
  	fill: pink;
@@ -122,6 +122,7 @@ li {
 80% {
 	transform-origin: center;
 	right: -80;
+	opacity: 1;
 }
 100% {
  	transform: rotate(-720deg) scale(3);
