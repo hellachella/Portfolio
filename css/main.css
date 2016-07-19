@@ -49,7 +49,10 @@ a:visited {
 
 .banner {
 	position: relative;
-	overflow: hidden;
+	background-image: url('../images/divesm-01.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
 }
 
 .dentures {
@@ -136,8 +139,7 @@ li {
 }
 
 .circles {
-
-	overflow: hidden;
+overflow: hidden;
 }
 .spincircle {
 	animation: spinny 25s ease-in infinite alternate;
@@ -252,43 +254,27 @@ svg {
 
 
 
-	@media only screen and (min-width: 25em) {
-		.rollteeth {
+	@media only screen and (max-width: 25em) {
+
+}
+
+	@media only screen and (max-width: 38em) {
+ .banner {
+ 	background-image: none;
+ }
 
 		}
 
 }
 
-	@media only screen and (min-width: 38em) {
-		.rollteeth {
-			right: 4.5em;
-			bottom: 5px;
-		}
-
-}
-
-	@media only screen and (min-width: 937px) {
-		.rollteeth {
-			right: 9em;
-			bottom: 2em;
-		}
-
-}
 
 
 	@media only screen and (min-width: 60em) {
-		.rollteeth {
-			right: 11em;
-			bottom: 2em;
-		}
+
 
 }
 
 	@media only screen and (min-width: 65em) {
-		.rollteeth {
-			right: 23em;
-			bottom: 2em;
-		}
 
 }
 
