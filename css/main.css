@@ -318,7 +318,7 @@ svg {
 	@media only screen and (max-width: 38em) {
 .diver-img {
 	position: absolute;
-	top: -60px;
+	top: -50px;
 	right: -120px;
 	width: 80%;
 }
@@ -338,9 +338,9 @@ svg {
 	@media only screen and (min-width: 60em) {
 		.diver-img {
 	position: absolute;
-	top: -560px;
-	right: -200px;
-	width: 60%;
+	top: -550px;
+	right: -170px;
+	width: 62%;
 }
 }
 
