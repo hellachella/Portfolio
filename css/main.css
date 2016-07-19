@@ -20,6 +20,19 @@ a:hover {
 	color: grey;
 }
 
+.navigation {
+	margin: 0;
+	padding: 1em;
+}
+
+.navigation ul {
+	background-color: lightpink;
+}
+
+.navigation li {
+	border-bottom: 1px dotted transparent;
+}
+
 .font-rasa{
 	font-family: 'Rasa', serif;
 }
@@ -69,18 +82,30 @@ li {
 }
 }
 
+.circles {
+	position: relative;
+}
 .spincircle {
-	animation: spinny 20s ease-in alternate infinite;
+	animation: spinny 20s ease-in infinite;
+	position:; absolute;
 }
 
 @keyframes spinny {
  0%{
  	transform: rotate(0deg) scale(0);
+ 	transform-origin: center;
+ 	top: 100px;
+ 	left: 50px;
+ 	fill: white;
  	opacity: 0;
 
  }
  50% {
  	opacity: .9;
+ 	top: 600px;
+ 	left: 500px;
+ 	fill: pink;
+ 	transform-origin: bottom;
  }
 
 100% {
@@ -105,6 +130,7 @@ li {
 
  50% {
  	opacity: .6;
+ 	fill: lightpink;
  }
  100% {
  	transform: rotate(360deg) scale(5);
