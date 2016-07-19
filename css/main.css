@@ -61,12 +61,22 @@ a:visited {
 
 .banner {
 	position: relative;
-	background-image: url('../images/divesm-01.svg');
+/*	background-image: url('../images/dive.svg');
 	background-repeat: no-repeat;
-	background-position: right;
-	background-size: contain;
+	background-position: center right;
+	background-size: 53%;
+	*/
 	background-color: #dff1ed;
+
 	display: block;
+}
+
+.diver-img {
+	position: absolute;
+	top: -720px;
+	right: -230px;
+	width: 60%;
+
 }
 
 .chelle {
@@ -297,17 +307,21 @@ svg {
 			font-size: .5rem;
 		}
 
-
+		.diver-img {
+				position: absolute;
+	top: -20px;
+	right: -70px;
+	width: 80%;
+		}
 }
 
 	@media only screen and (max-width: 38em) {
- .banner {
-background-image: none;
+.diver-img {
+	position: absolute;
+	top: -60px;
+	right: -120px;
+	width: 80%;
 
-background-repeat: repeat;
-background-blend-mode: all;
-
-opacity: 1;
 }
 
 	.bannertext {
