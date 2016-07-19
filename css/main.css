@@ -154,6 +154,10 @@ li {
 	 	opacity: .6;
 	 	fill: lightpink;
 	 }
+
+	 55% {
+	 	opacity: 1;
+	 }
 	 100% {
 	 	transform: rotate(360deg) scale(5);
 		opacity: 0;
