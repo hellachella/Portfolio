@@ -8,8 +8,15 @@ html {
     /*font-family: 'Merriweather', serif;*/
     background: #e2e2e2;
 
+}
 
+a {
+	text-decoration: none;
+	color: #000;
+}
 
+a:hover {
+	border-bottom: 1px dotted grey;
 }
 
 .font-rasa{
@@ -18,7 +25,7 @@ html {
 
 .bannertext {
 	font-size: 5rem;
-	padding-top: 3em;
+	padding-top: 2em;
 }
 
 ul {
@@ -53,6 +60,13 @@ li {
 	stroke: transparent;
 }
 
+.subtext {
+	transition: opacity 500ms;
+
+	fade:hover {
+		opacity: .25;
+}
+}
 
 .spincircle {
 	animation: spinny 20s ease-in alternate infinite;
@@ -100,3 +114,15 @@ li {
 
 
 
+/*ILLUSTRATION*/
+.thumbnail {
+	width: 80%;
+	margin: 1em 1em;
+	background: yellow;
+}
+
+.fullsize {
+	width: 90%;
+	margin: 1em 2em;
+	padding: 0;
+}
