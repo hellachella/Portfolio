@@ -123,7 +123,7 @@ li {
 	right: -80;
 }
 100% {
- 	transform: rotate(720deg) scale(3);
+ 	transform: rotate(-720deg) scale(3);
 	opacity: 0;
 	transform: translateY(30deg);
 }
