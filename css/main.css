@@ -9,7 +9,6 @@ html {
     background: #e2e2e2;
     background: #9be7d8;
 
-
 }
 
 a {
@@ -47,6 +46,55 @@ a:visited {
 	font-size: 5rem;
 	padding-top: 1em;
 }
+
+.banner {
+	position: relative;
+	overflow: hidden;
+}
+
+.dentures {
+	position: absolute;
+		right: -200px;
+		bottom: 2em;
+		transition: 500ms ease;
+		transform: rotate(-12deg);
+		transition-delay: 200ms;
+		margin: 1em;
+
+}
+
+.rollteeth {
+	animation: teeth 4000ms forwards ease;
+}
+
+@keyframes teeth {
+	0% {
+		right: 200px;
+		transform: rotate(0deg);
+		opacity:0;
+	}
+
+	5%{
+		opacity: 1;
+	}
+95%{
+	opacity: 1;
+}
+	100% {
+		right: 1800px;
+		transform: rotate(360deg);
+		opacity: 0;
+	}
+}
+
+.subtext {
+	opacity: 0;
+	transition: 5000ms ease;
+}
+.fadein {
+	opacity: 1;
+}
+
 
 ul {
 	padding: 0;
@@ -172,6 +220,10 @@ li {
 	display: block;
 }
 
+.dentures {
+	stroke: transparent;
+}
+
 .illustration h2 {
 	margin: 0;
 }
@@ -193,3 +245,51 @@ li {
 .fullsize {
 	width: 100%
 }
+
+svg {
+	stroke: transparent 0px;
+}
+
+
+
+	@media only screen and (min-width: 25em) {
+		.rollteeth {
+
+		}
+
+}
+
+	@media only screen and (min-width: 38em) {
+		.rollteeth {
+			right: 4.5em;
+			bottom: 5px;
+		}
+
+}
+
+	@media only screen and (min-width: 937px) {
+		.rollteeth {
+			right: 9em;
+			bottom: 2em;
+		}
+
+}
+
+
+	@media only screen and (min-width: 60em) {
+		.rollteeth {
+			right: 11em;
+			bottom: 2em;
+		}
+
+}
+
+	@media only screen and (min-width: 65em) {
+		.rollteeth {
+			right: 23em;
+			bottom: 2em;
+		}
+
+}
+
+
