@@ -119,10 +119,16 @@ li {
 .thumbnail {
 	width: 33.3%;
 	float: left;
+	padding: .5em;
+	background-color: white;
+
+
+}
+
+.thumbs {
+	width: 100%;
 }
 
 .fullsize {
-	width: 90%;
-	margin: 0 auto;
-	padding: 1em;
+	width: 100%
 }
