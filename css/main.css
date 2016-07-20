@@ -38,10 +38,6 @@ a:visited {
 
 }
 
-.navigation ul {
-	background-color: lightpink;
-}
-
 .navigation li {
 	border-bottom: 1px dotted transparent;
 }
@@ -153,7 +149,6 @@ a:visited {
 }
 .selfie {
 	float: left;
-	margin-right: 1em;
 	width: 25%;
 }
 
@@ -173,7 +168,7 @@ li {
 }
 
 .richblack {
-	background-color: #000;
+	background-color:#2f2d2e;
 }
 .white {
 	background-color: white;
@@ -192,7 +187,7 @@ li {
 }
 
 .testimonials {
-
+	background-color: #f9dadf;
 }
 
 .testimonial {
@@ -305,6 +300,12 @@ position: absolute;
 }
 
 /*ILLUSTRATION*/
+
+.illustration-wrapper {
+	background-color: #2f2d2e;
+}
+
+
 .thumbnail {
 	width: 33.3%;
 	float: left;
@@ -329,6 +330,8 @@ svg {
 .footer {
 	margin-bottom: 0;
 	display: block;
+	background-color: #ef80b3;
+	overflow: hidden;
 }
 
 	@media only screen and (max-width: 25em) {

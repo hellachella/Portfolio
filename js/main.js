@@ -2,6 +2,11 @@ var $dentures = $('.dentures');
 var $subtext = $('.subtext');
 var $chelle = $('.chelle');
 
+var $thumbcake = ('.thumbnail-cake');
+var $thumbspace = ('.thumbnail-space');
+var $thumbdive = ('.thumbnail-dive');
+var $fullsize = ('.fullsize');
+
 
 $chelle.on('mouseover', function () {
 	$dentures.addClass('rollteeth');
@@ -18,3 +23,6 @@ $chelle.on('animationend', function () {
 	$subtext.removeClass('fadein');
 });
 
+$thumbspace.on('click', function () {
+	$fullsize.html('<img src="images/OAF2016_Space.jpg>');
+});
