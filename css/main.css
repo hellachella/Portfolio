@@ -290,6 +290,10 @@ position: absolute;
 	display: block;
 }
 
+.about ul{
+	display: block;
+}
+
 .dentures {
 	stroke: transparent;
 }
@@ -318,8 +322,8 @@ position: absolute;
 	width: 100%;
 }
 
-.fullsize {
-	width: 100%
+.poster-size{
+	width: calc(100% / 4);
 }
 
 svg {
