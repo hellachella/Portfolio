@@ -23,6 +23,3 @@ $chelle.on('animationend', function () {
 	$subtext.removeClass('fadein');
 });
 
-$thumbspace.on('click', function () {
-	$fullsize.html('<img src="images/OAF2016_Space.jpg>');
-});
