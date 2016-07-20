@@ -234,92 +234,16 @@ li {
 .testimonial:hover {
   font-weight: 700;
 }
+.bannertext {
+  line-height: .5em;
+  padding: 2em 0;
+  }
 
 .subtext {
   transition: opacity 500ms;
   fade: hover {;
   opacity: .25;
 }
-}
-
-.circles {
-  position: absolute;
-}
-
-.spincircle {
-  animation: spinny 25s ease-in infinite alternate;
-}
-
-@keyframes spinny {
-  0% {
-    transform: rotate(0deg) scale(0);
-    transform-origin: center;
-    top: 100px;
-    left: 50px;
-    fill: #fff;
-    opacity: 0;
-  }
-
-  20% {
-    bottom: -300px;
-    right: 18px;
-    transform-origin: top;
-    opacity: .3;
-  }
-
-  30% {
-    opacity: .2;
-  }
-
-  50% {
-    opacity: .6;
-    top: 600px;
-    left: 500px;
-    fill: #ffc0cb;
-    transform-origin: bottom;
-  }
-
-  80% {
-    transform-origin: center;
-    right: -80px;
-    opacity: 1;
-  }
-
-  100% {
-    transform: rotate(-720deg) scale(3);
-    opacity: 0;
-    transform: translateY(30deg);
-    fill: #fff;
-  }
-}
-
-.spincircle-delay {
-  animation: spinnytoo 20s ease-out alternate infinite;
-  opacity: 0;
-}
-
-@keyframes spinnytoo {
-  0% {
-    transform: rotate(0deg) scale(0);
-    opacity: 0;
-  }
-
-  50% {
-    opacity: .2;
-    fill: #ffb6c1;
-  }
-
-  55% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: rotate(360deg) scale(5);
-    opacity: 0;
-    fill: #fff;
-  }
-}
-
 
 .about ul {
   display: block;
@@ -342,10 +266,6 @@ li {
 }
 
 
-.bannertext {
-  line-height: .5em;
-  padding: 2em 0;
-  }
 
 
 
