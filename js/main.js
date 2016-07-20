@@ -8,10 +8,10 @@ var $thumbdive = ('.thumbnail-dive');
 var $fullsize = ('.fullsize');
 
 
-$chelle.on('mouseover', function () {
-	$dentures.addClass('rollteeth');
-	$subtext.addClass('fadein');
-});
+//$chelle.on('mouseover', function () {
+//	$dentures.addClass('rollteeth');
+//	$subtext.addClass('fadein');
+//});
 
 $chelle.on('click', function () {
 	$dentures.addClass('rollteeth');
