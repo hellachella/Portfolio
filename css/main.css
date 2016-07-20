@@ -310,17 +310,13 @@ position: absolute;
 
 
 .thumbnail {
-	width: 33.3%;
 	float: left;
-	padding: .5em;
+	padding: 1em;
+	margin: 0;
 	background-color: white;
-
-
 }
 
-.thumbs {
-	width: 100%;
-}
+
 
 .poster-size{
 	width: calc(100% / 4);
@@ -353,6 +349,11 @@ display: none;
 	width: 60%;
 }
 
+	.thumbnail {
+		width: 100%;
+	}
+}
+
 	.bannertext {
 	line-height: .5em;
 	padding: 2em 0;
@@ -367,6 +368,10 @@ display: none;
 	right: -100px;
 	width: 50%;
 }
+
+	.thumbnail {
+		width: 100%;
+	}
 }
 
 	@media only screen and (min-width: 60em) {
@@ -376,6 +381,10 @@ display: none;
 	right: -170px;
 	width: 62%;
 }
+
+	.thumbnail {
+		width: calc(100% / 3);
+	}
 }
 
 	@media only screen and (min-width: 65em) {
@@ -385,6 +394,10 @@ display: none;
 	right: -100px;
 	width: 50%;
 }
+
+	.thumbnail {
+		width: calc(100% / 3);
+	}
 }
 
 
