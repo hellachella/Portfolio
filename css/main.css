@@ -304,17 +304,21 @@ position: absolute;
 
 /*ILLUSTRATION*/
 
-.illustration-wrapper {
-	background-color: #2f2d2e;
-}
 
 
 .thumbnail {
 	float: left;
 	padding: 1em;
 	margin: 0;
-	background-color: white;
+	opacity: .5;
+
+	transition: all 1s ease;
 }
+
+.thumbnail:hover{
+	opacity: 1;
+}
+
 
 
 
@@ -328,17 +332,19 @@ svg {
 
 .footer {
 	margin-bottom: 0;
-	display: block;
 	background-color: #ef80b3;
+	clear: both;
 }
 
 	@media only screen and (max-width: 25em) {
-
-
-
 		.diver-img {
 display: none;
 		}
+
+			.thumbnail {
+		width: 100%;
+	}
+
 }
 
 	@media only screen and (min-width: 38em) {
@@ -350,7 +356,8 @@ display: none;
 }
 
 	.thumbnail {
-		width: 100%;
+		width: 100%
+		padding: 1em;
 	}
 }
 
@@ -370,7 +377,7 @@ display: none;
 }
 
 	.thumbnail {
-		width: 100%;
+		max-width: calc(100% / 2);
 	}
 }
 
@@ -383,7 +390,7 @@ display: none;
 }
 
 	.thumbnail {
-		width: calc(100% / 3);
+		width: calc(100% / 2);
 	}
 }
 
