@@ -10,6 +10,10 @@ html {
   background: #9be7d8;
 }
 
+*,::before,::after {
+  box-sizing: inherit;
+}
+
 .strike {
   text-decoration: line-through;
 }
@@ -190,9 +194,7 @@ li {
   display: inline;
 }
 
-*,::before,::after {
-  box-sizing: inherit;
-}
+
 
 .grey {
   background-color: #d3d3d3;
@@ -265,16 +267,9 @@ li {
   display: block;
 }
 
-
-
-
-
 .poster-size {
   width: calc(100% / 4);
 }
-
-
-
 
 /* FOOTER */
 
@@ -331,6 +326,5 @@ li {
     right: -100px;
     width: 50%;
   }
-
 
 }
