@@ -6,7 +6,6 @@ html {
     font-family: 'Amiko', sans-serif;
 
     /*font-family: 'Merriweather', serif;*/
-    background: #e2e2e2;
     background: #9be7d8;
 
 }
@@ -331,7 +330,6 @@ svg {
 	margin-bottom: 0;
 	display: block;
 	background-color: #ef80b3;
-	overflow: hidden;
 }
 
 	@media only screen and (max-width: 25em) {
