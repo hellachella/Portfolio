@@ -2,13 +2,6 @@ var $dentures = $('.dentures');
 var $subtext = $('.subtext');
 var $chelle = $('.chelle');
 
-
-
-//$chelle.on('mouseover', function () {
-//	$dentures.addClass('rollteeth');
-//	$subtext.addClass('fadein');
-//});
-
 $chelle.on('click', function () {
 	$dentures.addClass('rollteeth');
 	$subtext.addClass('fadein');
