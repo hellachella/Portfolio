@@ -31,11 +31,9 @@ a {
   border-bottom: .5px dotted #ffb6c1;
   color: #000;
   transition: all 900ms ease;
-
-		-moz-transition: all 1s ease;
-		-webkit-transition: all 1s ease;
-		-o-transition: all 1s ease;
-
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 
 a:visited {
@@ -85,11 +83,9 @@ a:visited {
   right: -230px;
   width: 60%;
   transition: all 220ms ease;
-
-  		-moz-transition: all 220ms ease;
-		-webkit-transition: all 220ms ease;
-		-o-transition: all 220ms ease;
-
+  -moz-transition: all 220ms ease;
+  -webkit-transition: all 220ms ease;
+  -o-transition: all 220ms ease;
 }
 
 .chelle {
@@ -102,10 +98,9 @@ a:visited {
   width: 50px;
   margin: 1em;
   transition: all 300ms ease-in-out;
-  	-moz-transition: all 300ms ease-in-out;
-		-webkit-transition: all 300ms ease-in-out;
-		-o-transition: all 300ms ease-in-out;
-
+  -moz-transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
   opacity: .8;
 }
 
@@ -116,10 +111,9 @@ a:visited {
   width: 50px;
   margin: 1em;
   transition: all 300ms ease-in-out;
-  	 -moz-transition: all 300ms ease-in-out;
-		-webkit-transition: all 300ms ease-in-out;
-		-o-transition: all 300ms ease-in-out;
-
+  -moz-transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
   opacity: .8;
 }
 
@@ -133,9 +127,9 @@ a:visited {
   right: -200px;
   bottom: 1em;
   transition: 500ms ease;
-  	  	 -moz-transition: all 500ms ease;
-		-webkit-transition: all 500ms ease;
-		-o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transform: rotate(-12deg);
   transition-delay: 200ms;
   margin: 1em;
@@ -170,10 +164,9 @@ a:visited {
 .subtext {
   opacity: 0;
   transition: all 5000ms ease;
-  	 	 -moz-transition: all 5000ms ease;
-		-webkit-transition: all 5000ms ease;
-		-o-transition: all 5000ms ease;
-
+  -moz-transition: all 5000ms ease;
+  -webkit-transition: all 5000ms ease;
+  -o-transition: all 5000ms ease;
   transition-delay: 1s;
 }
 
@@ -193,8 +186,6 @@ ul {
 li {
   display: inline;
 }
-
-
 
 .grey {
   background-color: #d3d3d3;
@@ -228,18 +219,19 @@ li {
 .testimonial {
   font-style: italic;
   transition: all 500ms ease;
-   	 -moz-transition: all 500ms ease;
-		-webkit-transition: all 500ms ease;
-		-o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
 }
 
 .testimonial:hover {
   font-weight: 700;
 }
+
 .bannertext {
   line-height: .5em;
   padding: 2em 0;
-  }
+}
 
 .subtext {
   transition: opacity 500ms;
@@ -260,7 +252,6 @@ li {
 }
 
 /*ILLUSTRATION PAGE*/
-
 .illustration {
   background: #fff;
   margin: 0;
@@ -272,7 +263,6 @@ li {
 }
 
 /* FOOTER */
-
 .footer {
   margin-bottom: 0;
   background-color: #ef80b3;
@@ -284,8 +274,6 @@ li {
   .diver-img {
     display: none;
   }
-
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -295,7 +283,6 @@ li {
     right: -120px;
     width: 60%;
   }
-
 }
 
 @media only screen and (min-width: 780px) {
@@ -305,8 +292,6 @@ li {
     right: -100px;
     width: 50%;
   }
-
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -316,7 +301,6 @@ li {
     right: -170px;
     width: 62%;
   }
-
 }
 
 @media only screen and (min-width: 65em) {
@@ -326,5 +310,4 @@ li {
     right: -100px;
     width: 50%;
   }
-
 }
