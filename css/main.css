@@ -142,7 +142,7 @@ a:visited {
 }
 
 .rollteeth {
-  animation: teeth 3000ms forwards ease;
+  animation: teeth 3000ms ease;
 }
 
 @keyframes teeth {
